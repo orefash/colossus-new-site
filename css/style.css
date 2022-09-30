@@ -18125,6 +18125,10 @@ a.icon--school-bus-yellow-white:hover {
 	font-size: 48px;
 }
 
+.mdi-60px {
+	font-size: 60px;
+}
+
 .mdi-dark {
 	color: rgba(0, 0, 0, 0.54);
 }
