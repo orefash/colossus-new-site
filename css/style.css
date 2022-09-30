@@ -34987,7 +34987,7 @@ ul ul, ul ol, ol ul, ol ol {
 @media (min-width: 768px) {
 	.rd-map-wrap {
 		position: relative;
-		height: 665px;
+		height: 505px;
 	}
 	.rd-map-wrap .google-map-container {
 		position: absolute;

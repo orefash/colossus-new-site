@@ -393,14 +393,16 @@
 		 * @desc Initialize Google maps
 		 */
 		function initMaps() {
-			var key;
+			var key = "AIzaSyAp4qj9jO4GfkG_e81DUYLEEG38SflEP3o";
 
-			for ( var i = 0; i < plugins.maps.length; i++ ) {
-				if ( plugins.maps[i].hasAttribute( "data-key" ) ) {
-					key = plugins.maps[i].getAttribute( "data-key" );
-					break;
-				}
-			}
+			// for ( var i = 0; i < plugins.maps.length; i++ ) {
+			// 	if ( plugins.maps[i].hasAttribute( "data-key" ) ) {
+			// 		key = plugins.maps[i].getAttribute( "data-key" );
+			// 		break;
+			// 	}
+			// }
+
+			// console.log("google key: ", key)
 
 			$.getScript('//maps.google.com/maps/api/js?'+ ( key ? 'key='+ key + '&' : '' ) +'sensor=false&libraries=geometry,places&v=quarterly', function () {
 				var head = document.getElementsByTagName('head')[0],
